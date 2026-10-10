@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>علی توفیقی</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7f6;--card:#fff;--text:#14211d;--muted:#5b6b66;--accent:#0f6b55;--line:#e1e8e5}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1513;--card:#17211e;--text:#eaf2ef;--muted:#9bb0a9;--accent:#5fd1b0;--line:#27362f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9}
+.wrap{max-width:700px;margin:0 auto;padding:16px}
+.hero{text-align:center;padding:32px 16px;background:linear-gradient(135deg,#0f6b55,#1f9d7a);color:#fff;border-radius:20px}
+.hero .av{width:84px;height:84px;margin:0 auto 8px;border-radius:50%;background:rgba(255,255,255,.2);font-size:40px;font-weight:900;line-height:84px}
+.hero h1{margin:4px 0;font-size:30px}
+.hero p{margin:0;opacity:.9}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+.box small{color:var(--muted);display:block}
+.box b{font-size:17px}
+h2{color:var(--accent);margin:24px 0 8px;font-size:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.sons{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.son{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center}
+.son span{display:block;font-size:30px}
+footer{text-align:center;color:var(--muted);font-size:13px;margin:24px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="av">ع</div>
+    <h1>علی توفیقی</h1>
+    <p>پدر خانواده و کارمند شرکت</p>
+  </div>
+
+  <div class="grid">
+    <div class="box"><small>نام و نام خانوادگی</small><b>علی توفیقی</b></div>
+    <div class="box"><small>سن</small><b>۴۴ سال</b></div>
+    <div class="box"><small>سال تولد</small><b>۱۳۶۲</b></div>
+    <div class="box"><small>تعداد فرزند</small><b>۲ پسر</b></div>
+  </div>
+
+  <h2>درباره‌ی علی توفیقی</h2>
+  <div class="card">
+    علی توفیقی متولد سال ۱۳۶۲ است و اکنون ۴۴ سال دارد. او در یک شرکت مشغول به کار است و پدر دو پسر به نام‌های پرهام و رهام می‌باشد.
+  </div>
+
+  <h2>شغل</h2>
+  <div class="card">کارمند شرکت</div>
+
+  <h2>فرزندان</h2>
+  <div class="sons">
+    <div class="son"><span>👦</span><b>پرهام توفیقی</b></div>
+    <div class="son"><span>👦</span><b>رهام توفیقی</b></div>
+  </div>
+
+  <footer><b>سازنده: پرهام</b></footer>
+</div>
+</body>
+</html>
